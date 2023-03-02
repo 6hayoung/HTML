@@ -32,13 +32,36 @@ img {
 }
 
 .header_wrap > .search_bar {
+    display: flex;
     width:582px;
     height: 52px;
     border: 2px solid #19ce60;
     -webkit-border-radius: 2px;
     border-radius: 2px;
 }
-
+.header_wrap > .search_bar > input {
+    border:0;
+}
+.header_wrap > .search_bar > button {
+    position: relative;
+    width:56px;
+    height: 52px;
+    border:0;
+    text-indent: -9999px;
+    background:#19ce60 ;
+}
+.header_wrap > .search_bar > button:after {
+    content:'';
+    display: block;
+    position: absolute;
+    left: 16px;
+    top: 14px;
+    width:22px;
+    height:22px;
+    background:url('../images/naver/sp_main_947f65.png') no-repeat;
+    background-size: 442px;
+    background-position: -420px -24px;
+}
 .header_wrap > .header_ad {
     position: absolute;
     right: 0;
@@ -397,13 +420,15 @@ img {
 }
 #section > .left > .news_stand > .news_line > ul > li > ol > li > a {
     display: block;
-    width:calc(100/6%)px;
     padding:22px 0 23px;
     text-align: center;
     border:1px solid #dae1e6;
     box-sizing:border-box;
     border-right: 0;
     border-bottom: 0;
+}
+#section > .left > .news_stand > .news_line > ul > li > ol > li > a:hover img {
+    scale:1;
 }
 #section > .left > .news_stand > .news_line > ul > li > ol > li:nth-child(6n) > a{
     border-right: 1px solid #dae1e6;;
