@@ -1,5 +1,5 @@
-## <span style="background:#19ce60">네이버</span> 모작 페이지
-#19ce60
+## 네이버 모작 페이지
+<span style="background:#19ce60">네이버</span>
 > HTML, CSS, JavaScript 를 이용하여 간단한 모작페이지 제작.<br>
 > 1. **작업기간** : 23.02.20 ~ 23.02.22 (약 6시간 )<br>
 > 2. **HTML** : 마크업<br>
