@@ -33,6 +33,7 @@ img {
 
 .header_wrap > .search_bar {
     display: flex;
+    justify-content: space-between;
     width:582px;
     height: 52px;
     border: 2px solid #19ce60;
@@ -40,7 +41,14 @@ img {
     border-radius: 2px;
 }
 .header_wrap > .search_bar > input {
+    width:444px;
     border:0;
+    font-size: 20px;
+    text-indent: 15px;
+    font-weight: bold;
+}
+.header_wrap > .search_bar > input:focus {
+    outline:none;
 }
 .header_wrap > .search_bar > button {
     position: relative;
