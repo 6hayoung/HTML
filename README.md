@@ -5,5 +5,5 @@
 > HTML : 마크업<br>
 > JavaScript :<br>
 
-- [] w3c 유효성 검사<br>
-- [] console 창 깔끔하게 정리 
+- [x] w3c 유효성 검사<br>
+- [x] console 창 깔끔하게 정리 
