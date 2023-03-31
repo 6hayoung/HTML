@@ -7,3 +7,7 @@
 
 - [x] :monocle_face: w3c 유효성 검사 <br>
 - [ ] :sparkles: console 창 깔끔하게 정리 
+
+
+수정
+23.03.31 - header_top position에 맞게 위치 조정
