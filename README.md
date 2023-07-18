@@ -4,6 +4,7 @@
 > 2. **HTML** : 마크업<br>
 > 3. **CSS** : IMG hover 시 scale 확장<br>
 > 4. **JavaScript** : 각 동작에 필요한 class 생성 및 제거, 라이브러리 활용(slick) <br>
+> 5. 모작 페이지 바로가기 : https://6hayoung.github.io/HTML_NAVER/
 
 - [x] :monocle_face: w3c 유효성 검사 <br>
 - [ ] :sparkles: console 창 깔끔하게 정리 
