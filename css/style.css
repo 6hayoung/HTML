@@ -37,7 +37,7 @@ img {
     position: fixed;
     top: 0;
     left:0;
-    z-index: 10;
+    z-index: 100;
     background:#fff;
     border-bottom:1px solid #19ce60;
     transition:all 0.3s;
